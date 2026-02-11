@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online MCQ Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Online Test</h1>
+
+<form id="quizForm">
+
+<div class="question">
+    <p>1. What is 5 + 5?</p>
+    <input type="radio" name="q1" value="a"> 8<br>
+    <input type="radio" name="q1" value="b"> 10<br>
+    <input type="radio" name="q1" value="c"> 12<br>
+</div>
+
+<div class="question">
+    <p>2. Capital of India?</p>
+    <input type="radio" name="q2" value="a"> Mumbai<br>
+    <input type="radio" name="q2" value="b"> Delhi<br>
+    <input type="radio" name="q2" value="c"> Kolkata<br>
+</div>
+
+<button type="button" onclick="calculateScore()">Submit</button>
+
+</form>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
 
